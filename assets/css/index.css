@@ -837,7 +837,6 @@ span {
   flex: 1;
   width: 610px;
   display: flex;
-  position: relative;
 }
 .filter-menu_item {
   display: inline-block;
@@ -869,6 +868,7 @@ span {
   width: 200px;
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 .filter-by-price:hover {
   background-color: white;
@@ -877,7 +877,7 @@ span {
 .filter-by-price--option {
   position: absolute;
   bottom: -96px;
-  right: 232px;
+  right: 0;
   height: 96px;
   width: 200px;
   border-radius: 2px;
